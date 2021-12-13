@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <link rel="icon" href="images/Online Store Logo.png" type="image/icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/asserts/all.css">
+</head>
+<body>
+
+    <header id="home">
+        <nav>
+            <div class="logo_container">
+                <div class="container">
+                  <div class="mony_select">
+                <select>
+                    <option value="">usd</option>
+                    <option value="">inr</option>
+                    <option value="">kwd</option>
+                </select>
+              </div>
+              <div class="store_logo">
+                <a href="#" class="logo">online store</a>
+              </div>
+              <div class="login_button_container">
+                <div class="login_buttons">
+                    <a href="signin.html">sign in</a>
+                    <a href="signup.html">Create an Account</a>
+                </div>
+                <div class="login_info">
+                <a href="#"><i class="fa fa-user"></i></a>
+                <p id="userName_display">Ankush Singh</p>
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#features_products">features</a></li>
+                    <li><a href="#offer">collection</a></li>
+                    <li><a href="#product_grid">shop</a></li>
+                    <li><a href="#footer">about us</a></li>
+                </ul>
+            <div class="nav_icons">
+                <a href="#" id="search_modal_btn"><i class="fa fa-search"></i></a>
+                <a href="#" id="modal_btn"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <main>
+      <div class="galleryContainer">
+        <div class="slideShowContainer">
+            <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+            <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+            <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+            <div class="imageHolder">
+                <img src="images/carousel_1.jpg">
+                <p class="captionText">destino furniture collection</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/carousel_2.jpg">
+                <p class="captionText">apple iphone 8 max</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/carousel_3.jpg">
+                <p class="captionText">men's slim fit single breasted blazer</p>
+            </div>
+            <div class="imageHolder">
+                <img src="images/carousel_4.jpg">
+                <p class="captionText">sony digital camera bag MII-HG1
+                </p>
+            </div>
+        </div>
+        <div id="dotsContainer"></div>
+    </div>
+    </main>
+    <section id="products_section">
+      <div class="container">
+        <div class="products_info">
+          <img src="images/Pot.jpg" alt="">
+          <a href="flower pots.html">flower pots</a>
+        </div>
+
+        <div class="products_info">
+          <img src="images/lamp.jpg" width="220" height="250" alt="">
+          <a href="table lamps.html">table lamps</a>
+        </div>
+
+        <div class="products_info">
+          <img src="images/cupboard.jpg" width="220" height="250" alt="">
+          <a href="cupboards.html">cupboards</a>
+        </div>
+
+        <div class="products_info">
+          <img src="images/Appliances.jpg" width="220" height="250" alt="">
+          <a href="appliances.html">appliances</a>
+        </div>
+
+        <div class="products_info">
+          <img src="images/chair.jpg" width="220" height="250" alt="">
+          <a href="chairs.html">chairs</a>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+     <section id="features_products">
+       <div class="heading">
+         <h1>features products</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna aliqua.</p>
+       </div>
+       <div class="container">
+          <div class="products_details">
+            <div class="product_details_img">
+              <img src="images/globe lamp.jpg" alt="">
+            </div>
+            <div class="product_details_info">
+            <h4>K3 AURA Wall Plug in Mini Salt Lamp</h4>
+            <div class="stars">
+              <a href="#"><i class="fa fa-star"></i></a>
+              <a href="#"><i class="fa fa-star"></i></a>
+              <a href="#"><i class="fa fa-star"></i></a>
+              <a href="#"><i class="fa fa-star"></i></a>
+              <a href="#"><i class="fa fa-star"></i></a>
+            </div>
+            <strong style="color: red"><span class="strick-throught_price">$15.90</span> $10.99</strong>
+          </div>
+          <a href="#" class="features_anchor_button">Add to Cart</a>
+        </div>
+
+        <div class="products_details">
+          <div class="product_details_img">
+            <img src="images/table.jpg" alt="">
+          </div>
+          <div class="product_details_info">
+          <h4>K.F.INTERIORS : Folding Study Desk</h4>
+          <div class="stars">
+            <a href="#"><i class="fa fa-star"></i></a>
+            <a href="#"><i class="fa fa-star"></i></a>
+            <a href="#"><i class="fa fa-star"></i></a>
+            <a href="#"><i class="fa fa-star"></i></a>
+            <a href="#"><i class="fa fa-star"></i></a>
+          </div>
+          <strong style="color: red"><span class="strick-throught_price">$65.89</span> $57.35</strong>
+        </div>
+        <a href="#" class="features_anchor_button">Add to Cart</a>
+      </div>
+
+      <div class="products_details">
+        <div class="product_details_img">
+          <img src="images/table with drawer.jpg" alt="">
+        </div>
+        <div class="product_details_info">
+        <h4>WoodHut Wrought Iron Bedside Table</h4>
+        <div class="stars">
+          <a href="#"><i class="fa fa-star"></i></a>
+          <a href="#"><i class="fa fa-star"></i></a>
+          <a href="#"><i class="fa fa-star"></i></a>
+          <a href="#"><i class="fa fa-star"></i></a>
+          <a href="#"><i class="fa fa-star"></i></a>
+        </div>
+        <strong style="color: red"><span class="strick-throught_price">$35.99</span> $27.30</strong>
+      </div>
+      <a href="#" class="features_anchor_button">Add to Cart</a>
+    </div>
+
+    <div class="products_details">
+      <div class="product_details_img">
+        <img src="images/computer table.jpg" alt="">
+      </div>
+      <div class="product_details_info">
+      <h4>BLUEWUD Wood Computer Table</h4>
+      <div class="stars">
+        <a href="#"><i class="fa fa-star"></i></a>
+        <a href="#"><i class="fa fa-star"></i></a>
+        <a href="#"><i class="fa fa-star"></i></a>
+        <a href="#"><i class="fa fa-star"></i></a>
+        <a href="#"><i class="fa fa-star"></i></a>
+      </div>
+      <strong style="color: red"><span class="strick-throught_price">$68.65</span> $60.75</strong>
+    </div>
+    <a href="#" class="features_anchor_button">Add to Cart</a>
+  </div>
+       </div>
+     </section>
+
+     <section id="offer">
+       <div class="container">
+         <div class="offer_img_container">
+         <img src="images/sofa.jpg" alt="">
+         <div class="offer_time_container">
+             <div class="offer_time_box">
+               <h2>125</h2>
+               <p>days</p>
+             </div>
+
+             <div class="offer_time_box">
+               <h2>5</h2>
+               <p>hours</p>
+             </div>
+
+             <div class="offer_time_box">
+               <h2>45</h2>
+               <p>mins</p>
+             </div>
+
+             <div class="offer_time_box">
+               <h2>13</h2>
+               <p>secs</p>
+             </div>
+         </div>
+       </div>
+       <div class="offer_content_container">
+         <h1>upholstered fabric sofa</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+         <div class="stars">
+           <a href="#"><i class="fa fa-star"></i></a>
+           <a href="#"><i class="fa fa-star"></i></a>
+           <a href="#"><i class="fa fa-star"></i></a>
+           <a href="#"><i class="fa fa-star"></i></a>
+           <a href="#"><i class="fa fa-star"></i></a>
+         </div>
+         <strong style="color: red"><span class="strick-throught_price">$139.99
+         </span> $131.90</strong><br>
+         <a href="#" class="offer_anchor_button">Add to Cart</a>
+       </div>
+       </div>
+     </section>
+
+     <section class="product_imgs">
+          <div class="container">
+            <div class="product_imgs_container">
+              <img src="images/monitor1.jpg" alt="">
+              <div class="product_imgs_overlay">
+                 <h4>LG 22 inch (55cm) IPS Monitor</h4>
+                 <p> Full HD, IPS Panel with VGA, HDMI, DVI, Audio Out Ports - 22MP68VQ</p>
+                 <div class="stars">
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                 </div>
+                 <strong style="color: red"><span class="strick-throught_price">$125.95</span> $116.45</strong><br>
+                 <a href="#" class="product_button">Add to Cart</a>
+              </div>
+            </div>
+
+            <div class="product_imgs_container">
+              <img src="images/monitor2.jpg" alt="">
+              <div class="product_imgs_overlay">
+                 <h4>Samsung 59.8 cm (23.5 inch) Curved Monitor</h4>
+                 <p>Full HD, VA Panel with VGA, HDMI, Audio Ports - LC24F390FHWXXL (Black)</p>
+                 <div class="stars">
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                 </div>
+                 <strong style="color: red"><span class="strick-throught_price">$150.65</span> $129.69</strong><br>
+                 <a href="#" class="product_button">Add to Cart</a>
+              </div>
+            </div>
+
+            <div class="product_imgs_container">
+              <img src="images/monitor3.jpg" alt="">
+              <div class="product_imgs_overlay">
+                 <h4>Samsung 21.5 inch (54.6 cm) Monitor</h4>
+                 <p>Full HD, Super Slim AH-IPS panel-LF22T350FHWXXL</p>
+                 <div class="stars">
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                 </div>
+                 <strong style="color: red"><span class="strick-throught_price">$130.30</span> $105.90</strong><br>
+                 <a href="#" class="product_button">Add to Cart</a>
+              </div>
+            </div>
+
+            <div class="product_imgs_container">
+              <img src="images/monitor4.jpg" alt="">
+              <div class="product_imgs_overlay">
+                 <h4>Dell P Series 24-inch (60.96 cm) Screen</h4>
+                 <p>Full HD (1080p) LED-Lit Monitor with IPS Panel - P2419H (Black)</p>
+                 <div class="stars">
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                   <a href="#"><i class="fa fa-star"></i></a>
+                 </div>
+                 <strong style="color: red"><span class="strick-throught_price">$179.90</span> $170.60</strong><br>
+                 <a href="#" class="product_button">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+     </section>
+
+     <section id="product_grid">
+       <div class="container">
+         <div class="new_arrivals">
+           <h1 class="new_arrival_heading">new arrivals</h1>
+           <div class="new_product">
+             <img src="images/headphone1.jpg" alt="">
+             <div class="new_product_content">
+               <h4>JBL Wireless Headphones</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$45.90</span> $38.89</strong>
+             </div>
+           </div>
+
+           <div class="new_product">
+             <img src="images/laptop2.jpg" alt="">
+             <div class="new_product_content">
+               <h4>Lenovo 15.6 inch HD Laptop</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$356.90</span> $361.85</strong>
+             </div>
+           </div>
+
+           <div class="new_product">
+             <img src="images/camera1.jpg" alt="">
+             <div class="new_product_content">
+               <h4>Canon Digital SLR Camera</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$423.99</span> $416.30</strong>
+             </div>
+           </div>
+         </div>
+
+         <div class="bestseller_product">
+           <h1 class="bestseller_product_heading">bestseller</h1>
+           <div class="new_product">
+             <img src="images/camera2.jpg" alt="">
+             <div class="new_product_content">
+               <h4>Panasonic LUMIX G7 Camera</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$525.56</span> $518.70</strong>
+             </div>
+           </div>
+
+           <div class="new_product">
+             <img src="images/monitor1.jpg" alt="">
+             <div class="new_product_content">
+               <h4>LG 22 inch IPS Monitor</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$125.95</span> $116.45</strong>
+             </div>
+           </div>
+
+           <div class="new_product">
+             <img src="images/laptop1.jpg" alt="">
+             <div class="new_product_content">
+               <h4>Lenovo Ideapad Laptop</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$432.25</span> $423.12</strong>
+             </div>
+           </div>
+         </div>
+
+         <div class="featured_product">
+           <h1 class="featured_product_heading">featured</h1>
+           <div class="new_product">
+             <img src="images/monitor4.jpg" alt="">
+             <div class="new_product_content">
+               <h4>Dell P Series 24-inch Monitor</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$179.90</span> $170.60</strong>
+             </div>
+           </div>
+
+           <div class="new_product">
+             <img src="images/headphone2.jpg" alt="">
+             <div class="new_product_content">
+               <h4>Zebronics Zeb-Thunder Headphone</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$20.20</span> $10.22</strong>
+             </div>
+           </div>
+
+           <div class="new_product">
+             <img src="images/speaker.jpg" alt="">
+             <div class="new_product_content">
+               <h4>Infinity (JBL) Wireless Speaker</h4>
+               <div class="stars">
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+                 <a href="#"><i class="fa fa-star"></i></a>
+               </div>
+               <strong style="color: red"><span class="strick-throught_price">$25.80</span> $17.73</strong>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section id="branding">
+           <div class="container">
+             <div class="brand_img">
+               <img src="images/brands1.png" alt="">
+             </div>
+             <div class="brand_img">
+               <img src="images/brands2.png" alt="">
+             </div>
+             <div class="brand_img">
+               <img src="images/brands3.png" alt="">
+             </div>
+             <div class="brand_img">
+               <img src="images/brands4.png" alt="">
+             </div>
+             <div class="brand_img">
+               <img src="images/brands5.png" alt="">
+             </div>
+             <div class="brand_img">
+               <img src="images/brands6.png" alt="">
+             </div>
+           </div>
+     </section>
+
+     <section id="client_says">
+           <div class="container">
+             <div class="client_says_content">
+                <h1>what our client say?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Duis aute irure dolor in reprehenderit in voluptate.</p>
+                <div class="client_name">
+                  <h3>Sahil Singh</h3>
+                  <h5>Online Store User</h5>
+                </div>
+              </div>
+            </div>
+     </section>
+
+     <div class="container scrooltop">
+			<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+		</div>
+
+     <footer id="footer">
+       <div class="policy_container">
+       <div class="container">
+         <div class="policy">
+           <div class="policy_icon">
+           <i class="fa fa-rocket"></i>
+         </div>
+           <div class="policy_content">
+               <h3>free shopping & return</h3>
+               <p>Free shipping on order over $59</p>
+           </div>
+         </div>
+
+         <div class="policy">
+           <div class="policy_icon">
+           <i class="fas fa-hand-holding-usd"></i>
+         </div>
+           <div class="policy_content">
+               <h3>money guarantee</h3>
+               <p>30 days money back guarantee</p>
+           </div>
+         </div>
+
+         <div class="policy">
+           <div class="policy_icon">
+           <i class="fa fa-headphones"></i>
+         </div>
+           <div class="policy_content">
+               <h3>online support</h3>
+               <p>We support online 24 hours a day</p>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="footer_links">
+         <div class="contactus_div">
+           <h1>contact us</h1>
+           <a href="#"><i class="fa fa-home"></i><span>No 69 Baria Street 134/2 NewYork City, NY, United States</span></a>
+           <a href="#"><i class="fa fa-paper-plane"></i><span>www.onlinestore.com</span></a>
+           <a href="#"><i class="fa fa-phone"></i><span>(888) 123458967</span></a>
+           <div class="social_media_icon">
+             <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-google-plus"></i></a>
+                   <a href="#"><i class="fab fa-skype"></i></a>
+                   <a href="#"><i class="fab fa-youtube"></i></a>
+           </div>
+         </div>
+
+         <div class="services_div">
+           <h1>our services</h1>
+           <a href="#">new york</a>
+           <a href="#">london sF</a>
+           <a href="#">cockfosters bP</a>
+           <a href="#">los angeles</a>
+         </div>
+
+         <div class="extras_div">
+           <h1>extras</h1>
+           <a href="#">about store</a>
+           <a href="#">new collection</a>
+           <a href="#">contact us</a>
+           <a href="#">latest news</a>
+         </div>
+
+         <div class="follow_div">
+           <h1>follow instagram</h1>
+           <div class="insta_imgs">
+             <img src="images/follow1.jpg" alt="">
+             <img src="images/follow2.jpg" alt="">
+             <img src="images/follow3.jpg" alt="">
+             <img src="images/follow4.jpg" alt="">
+             <img src="images/follow5.jpg" alt="">
+             <img src="images/follow6.jpg" alt="">
+             <div class="insta_imgs_overlay">
+               <a href="#">follow now</a>
+             </div>
+           </div>
+         </div>
+     </div>
+     <div class="small_footer_container">
+       <div class="help_container">
+         <h2>need help? call our award-warning</h2>
+         <h4>support team 24/7 at (884) 5555-2483</h4>
+       </div>
+       <div class="subscribe_container">
+          <input type="text" name="text" placeholder="Enter Your email Address" id="subInp">
+          <button type="button" name="button" id="subBtn" onclick="return Subscribe()">subscribe</button>
+       </div>
+     </div>
+     <div class="last_div">
+     <img class="payment_methods" src="images/payment methods.jpg" alt="">
+     <p id="copyright">Online Store <i class="fa fa-copyright"></i> 2021. All Rights Reserved. Designed by Ankush Singh</p>
+   </div>
+     </footer>
+
+     <div class="modal_container">
+       <div class="modal">
+         <div class="modal_content">
+           <div class="modal_header">
+           <h2>online store basket</h2>
+         </div>
+         <div class="modal_body">
+           <p>Your Online Store Basket is Empty</p>
+         </div>
+            <div class="modal_footer">
+              <button type="button" name="button">buy all</button>
+              <button type="button" name="button" id="close_btn">close</button>
+            </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="search_modal_container">
+      <div class="search_modal">
+        <div class="search_modal_content">
+          <div class="search_modal_header">
+          <div class="search_box">
+            <input type="text" placeholder="Search Your Product Here">
+            <a href="#" style="color: #f2f2f2"><i class="fa fa-search"></i></a>
+          </div>
+        </div>
+        <div class="search_modal_body">
+          <p>Your Search Result Comes Here</p>
+        </div>
+           <div class="search_modal_footer">
+             <button type="button" name="button" id="search_close_btn">close</button>
+           </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

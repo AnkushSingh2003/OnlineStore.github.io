@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store | Sign In</title>
+    <link rel="icon" href="images/Online Store Logo.png" type="image/icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/asserts/all.css">
+</head>
+<body>
+    
+    <div class="signin_container">
+        <div class="sigin_img">
+
+        </div>
+        <div class="signin_content">
+            <form class="signin_form" action="index.html">
+           <h2 id="signin_heading">login</h2>
+               <div class="info">
+              <label for="name">username :</label><br>
+              <input type="text" class="username" id="username">
+            </div>
+            <div class="info">
+              <label for="password">password :</label><br>
+              <input type="password" class="password" id="password">
+            </div>
+              <input type="checkbox" class="checkbox"><span>Remember me</span><br>
+              <button onclick="return validation()" id="signin_btn">Sign in</button>
+              <p class="create_new">Don't have an account? <a href="signup.html">Sign up</a></p>
+              <div class="social_media">
+              <h3>Login with social media</h3>
+           <div class="social_media_icons">
+           <a href="#"><i class="fab fa-facebook"></i></a>            
+           <a href="#"><i class="fab fa-twitter"></i></a>            
+           <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div> 
+           </form>
+                       
+        </div>   
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
